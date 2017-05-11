@@ -1,0 +1,11 @@
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:12345/eureka
+
+server:
+  port: 12345
+  
+

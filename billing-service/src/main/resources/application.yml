@@ -1,0 +1,7 @@
+eureka:
+ client:
+    serviceUrl:
+      defaultZone: http://localhost:12345/eureka
+    enabled: true
+server:
+  port: 2080  
